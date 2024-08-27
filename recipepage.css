@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    background-color: #ffedd8;
+    font-size: 16px;
+   
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: "Outfit", sans-serif;
+    font-size: 0.9rem;
+    color: #555454;
+    max-width: 375px;
+    height: auto;
+    margin: 0 auto;
+
+}
+h1 {
+  font-family: 'Young Serif';
+  color: #353535;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Young Serif';
+    font-size: 1rem;
+    color: #8b4628;
+    font-weight: 300;
+    margin-bottom: 5px;
+    margin-left: -20px;
+
+}
+
+
+#recipe{
+
+   padding: 20px;
+}
+
+p {
+    color: #555454;
+    font-size: 0.9rem;
+}
+
+h4 {
+    color: #811237;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    margin-left: -19px;
+}
+
+#prep-time {
+    padding: 20px;
+    margin-left: 35px;
+    line-height: 25px;
+
+}
+
+span {
+    font-weight: 700;
+    color: #353535;
+    margin-right: 5px;
+}
+
+#ingredients {
+    padding: 20px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+#instructions {
+    padding: 20px;
+    margin-left: 20px;
+    line-height: 25px;
+}
+
+#nutrition {
+    padding: 5px;
+    margin-left: 20px;
+    
+}
+ 
+#nutrition h2 {
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-top: 1px solid #64636310;
+    width: 90%;
+    margin: 0 auto;
+}
+
+table {
+    margin: 25px;
+    border-collapse: collapse;
+    line-height: 2rem;
+    width: 80%;
+}
+
+td {
+    border-bottom: 1px solid #6e6e6e21;
+    padding-inline: 25px;
+}
+
+.blocks {
+    color: #8b4628;
+}
+
+ul {
+    list-style-position: outside;
+}
+
+::marker {
+    color: #811237;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(min-width: 1440px) {
+
+    body {
+        padding: 20px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        max-width: 500px;
+        border-radius: 30px;
+    }
+
+    img{
+        border-radius: 10px;
+        
+    }
+    
+}
